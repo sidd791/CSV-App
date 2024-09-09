@@ -1,0 +1,12 @@
+{% extends "layouts/home.html" %}
+
+{% block body %}
+
+{% if result %}
+<h2>Task Id : {{result.id}}</h2>
+<h2>Task status : {{result.status}}</h2>
+<h2>Task state : {{result.state}}</h2>
+<h2>Task Result : {{result.result}}</h2>
+{% endif %}
+
+{% endblock %}
